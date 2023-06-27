@@ -1,0 +1,57 @@
+body {
+	
+	background: white;
+	
+}
+
+.wrap {
+	 top: 0;
+	 left: 0;
+	 height: auto;
+	 width: 100%;
+}
+
+.menu_container {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	background-color: blue;
+	
+}
+
+.menu {
+	font: bold 20px sans-serif;
+	text-align: center;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+	
+	
+}
+
+.menu li {
+	
+	color: green;
+	display: inline-block;
+	margin-right: -2pz;
+	position: relative;
+	padding: 12px 40px;
+	border: 1px solid gray;
+	border-radius: 1.5px;
+	background-color: red;
+	cursor: pointer;
+	
+	}
+
+
+.submenu {
+	
+	padding: 0;
+	left: 0;
+	position: absolute;
+	width: 123px;
+	visibility: hidden;
+}
