@@ -1,0 +1,18 @@
+body {
+	
+	font-family: 'Raleway' arial sans-serif;
+	font-size: 20px;
+	
+}
+
+
+
+input[type="text"] {
+	
+font-size: 15px;
+margin: 2px;
+outline: none;
+font-weight: 600;
+color: #8D8E8F;
+border-radius: 5px;
+]
