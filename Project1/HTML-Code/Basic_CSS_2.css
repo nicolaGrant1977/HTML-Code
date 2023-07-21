@@ -1,0 +1,16 @@
+
+
+p {
+	text-shadow: 1px 1px 2px black;
+	
+}
+
+
+ul {
+ 	list-style-type: circle;
+}
+
+ol {
+
+      list-style-type: upper-roman;
+}
