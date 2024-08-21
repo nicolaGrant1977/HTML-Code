@@ -204,3 +204,5 @@ function arrayIncludes(squareA, squareB, squareC) {
 		
 		
 	}
+
+}
