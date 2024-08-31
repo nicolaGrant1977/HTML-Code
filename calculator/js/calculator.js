@@ -22,7 +22,7 @@ function Input_Digit(digit) {
 	} else {
 		//This overwrites Display_Value if the current value is 0. Otherwise,
 		//it concatenates the value
-		Calculator.Display_Value = Display_Value === '0' ? digit : Display_value + digit;
+		Calculator.Display_Value = Display_Value === '0' ? digit : Display_Value + digit;
 		
 	}
 	
