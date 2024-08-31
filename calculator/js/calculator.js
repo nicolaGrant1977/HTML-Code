@@ -34,8 +34,8 @@ function Input_Digit(digit) {
 
 function Input_Decimal(dot) {
 	
-	if (Calculator.Wait_Second_Operand === 'true') return;
-	if(!Calculator.Display_value.includes(dot)) {
+	if (Calculator.Wait_Second_Operand === true) return;
+	if(!Calculator.Display_Value.includes(dot)) {
 		
 		Calculator.Display_Value += dot;
 }
@@ -53,7 +53,7 @@ function Handle_Operator(Next_Operator) {
 		
 		Calculator.operator =  Next_Operator;
 		return;
-	}
+	}f
 	if(First_Operand == null) {
 		Calculator.First_Operand = Value_of_Input;
 		
