@@ -85,7 +85,7 @@ const Perform_Calculation = {
 // Resets the calculator when the AC button is clicked
 function Calculator_Reset() {
 	
-	Calculator.Display_Value = 0;
+	Calculator.Display_Value = '0';
 	Calculator.First_Operand = null;
 	Calculator.Wait_Second_Operand = false;
 	Calculator.operator = null;
@@ -95,7 +95,7 @@ function Calculator_Reset() {
 
 function Update_Display() {
 	
-	const display = document.querySelector('calculator_screen');
+	const display = document.querySelector('calculator-screen');
 	display.value = Calculator.Display_Value;
 	
 	
