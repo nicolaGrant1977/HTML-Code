@@ -53,7 +53,7 @@ function Handle_Operator(Next_Operator) {
 		
 		Calculator.operator =  Next_Operator;
 		return;
-	}f
+	}
 	if(First_Operand == null) {
 		Calculator.First_Operand = Value_of_Input;
 		
@@ -95,7 +95,7 @@ function Calculator_Reset() {
 
 function Update_Display() {
 	
-	const display = document.querySelector('calculator-screen');
+	const display = document.querySelector('.calculator-screen');
 	display.value = Calculator.Display_Value;
 	
 	
