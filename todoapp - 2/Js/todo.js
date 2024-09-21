@@ -27,7 +27,7 @@ function add() {
 	/*This adds a new task to the end of the array*/
 	todos.push(task);
 	/* this converts the task input to a JSON string*/
-	localStorage.setItem('todo', JSON.stringify(todos);
+	localStorage.setItem('todo', JSON.stringify(todos));
 	document.getElementById("task").value="";
 	show();
 	
@@ -50,7 +50,7 @@ function show() {
 	
 	html += '</ul';
 	/*This displays the task as a list. */
-	document.getElementById{'todos').innerHTML = html;
+	document.getElementById('todos').innerHTML = html;
 	
 	
 	}
