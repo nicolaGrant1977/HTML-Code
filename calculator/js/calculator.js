@@ -62,7 +62,7 @@ function Handle_Operator(Next_Operator) {
 		let result = Perform_Calculation[operator](Value_Now, Value_of_Input);
 		result = Number(result).toFixed(9);
 		//This will remove any trailing 0s.
-		result = (result * 1).toString();
+		result = parseInt((result * 1).toString());
 		Calculator.Display_Value = result;
 		Calculator.First_Operand = result;
 	
